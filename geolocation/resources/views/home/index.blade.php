@@ -4,5 +4,5 @@
     </div>
 
     <!-- mapbox -->
-    <div id="mapbox"></div>
+    <div id="mapbox" height="100"></div>
 </x-layouts.master>
