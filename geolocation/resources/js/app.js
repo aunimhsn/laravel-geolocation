@@ -7,3 +7,7 @@ var map = new mapboxgl.Map({
     container: 'mapbox',
     style: 'mapbox://styles/mapbox/streets-v11'
 });
+
+var marker = new mapboxgl.Marker()
+                .setLngLat([30.5, 50.5])
+                .addTo(map);
